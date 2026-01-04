@@ -1,5 +1,5 @@
 # DAVANTE-DENT-
-📘 README – Aplicación Web de Gestión de Citas – DavanteDent
+
 🦷 Descripción del Proyecto
 
 Aplicación web local para la gestión de citas de pacientes en las clínicas dentales DavanteDent.
