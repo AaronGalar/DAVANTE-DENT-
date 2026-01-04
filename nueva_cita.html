@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DavanteDent - Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="citas.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-info">
+            <img src="imagen.png" alt="DavanteDent" class="logo">
+            <h1 id="titulo-form">Nueva Cita</h1>
+        </div>
+        <a href="ver_citas.html"><button type="button" class="btn-volver">Cancelar</button></a>
+    </header>
+    <section id="form-section">
+        <form id="formCita" novalidate>
+            <input type="hidden" id="idCita">
+            <fieldset>
+                <legend>Fecha de la cita</legend>
+                <div style="display: flex; gap: 5px;">
+                    <input type="number" id="dia" placeholder="Día">
+                    <input type="number" id="mes" placeholder="Mes">
+                    <input type="number" id="anio" placeholder="Año">
+                    <input type="number" id="hora" placeholder="H">
+                    <input type="number" id="minuto" placeholder="M">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Datos del paciente</legend>
+                <input type="text" id="nombre" placeholder="Nombre">
+                <input type="text" id="apellidos" placeholder="Apellidos">
+                <input type="text" id="dni" placeholder="DNI (12345678X)">
+                <input type="text" id="telefono" placeholder="Teléfono">
+                <label>Fecha Nacimiento:</label>
+                <input type="date" id="nacimiento">
+            </fieldset>
+            <textarea id="observaciones" placeholder="Observaciones"></textarea>
+            <button type="submit" id="btnGuardar">Guardar Cita</button>
+        </form>
+    </section>
+    <footer>
+        <p>Clínica DavanteDent — Tel: 900 000 000</p>
+    </footer>
+</body>
+</html>
+</html>
